@@ -1,10 +1,8 @@
-# retrieval-2016-remote
-
 # Multi-Label Remote Sensing Image Retrieval by Using Deep Fetures
 
-| ![Michele Compri][MicheleCompri-photo] | ![Begum Demir][BegumDemir-photo] | ![Xavier Giro-i-Nieto][XavierGiro-photo]| ![Noel O'Connor][NoelOConnor-photo] |
+| ![Michele Compri][MicheleCompri-photo] | ![Begum Demir][BegumDemir-photo] | ![Xavier Giro-i-Nieto][XavierGiro-photo]| 
 |:-:|:-:|:-:|:-:|
-| [Marc Assens][MicheleCompri-web]  | [Begum Demir][BegumDemir-web]  | [Xavier Giro-i-Nieto][XavierGiro-web] |
+| [Michele Compri][MicheleCompri-web]  | [Begum Demir][BegumDemir-web]  | [Xavier Giro-i-Nieto][XavierGiro-web] |
 
 
 [MicheleCompri-web]: https://www.linkedin.com/in/marc-assens-reina-5b1090bb/
