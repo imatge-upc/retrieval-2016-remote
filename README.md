@@ -11,8 +11,8 @@
 [BegumDemir-web]: http://begumdemir.com/
 [XavierGiro-web]: https://imatge.upc.edu/web/people/xavier-giro
 
-[MicheleCompri-photo]: https://github.com/massens/saliency-360salient-2017/raw/master/authors/foto_carnet_dublin.jpg "Marc Assens"
-[BegumDemir-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-salgan-2017/junting/authors/Kevin160x160%202.jpg?token=AFOjyZmLlX3ZgpkNe60Vn3ruTsq01rD9ks5YdAaiwA%3D%3D "Begum Demir"
+[MicheleCompri-photo]: 
+[BegumDemir-photo]: 
 [XavierGiro-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/XavierGiro.jpg "Xavier Giro-i-Nieto"
 
 A joint collaboration between:
@@ -33,6 +33,10 @@ A joint collaboration between:
 
 Recent advances in satellite technology has led to an increased volume of remote sensing (RS) image archives, from which retrieving useful information is challenging. Therefore, one important research area in remote sensing (RS) is the content-based retrieval of RS images (CBIR). The performance of the CBIR systems relies on the capability of the RS image features in modeling the content of the images as well as the considered retrieval algorithm that assesses the similarity among the features. Using supervised classification methods in the context of CBIR by training the classifier with the already annotated images has attracted attention in RS. However, existing supervised CBIR systems in the RS literature assume that each training image is categorized by only a single label that is associated to the most significant content of the image. However, RS images usually have complex content, i.e., there are usually several regions within each image related to multiple land-cover classes. Thus, available supervised CBIR systems are not capable of accurately characterizing and exploiting the high level semantic content of RS images for retrieval problems.
 To overcome these problems and to effectively characterize the high-level semantic content of RS images in supervised CBIR problems, we investigate effectiveness of different deep learning architectures in the framework of multi-label remote sensing image retrieval. It is worth noting that deep learning architectures such as CNNs have recently attracted great attention in RS [1,2] due to its effective and accurate feature learning. However, according to our knowledge this is the first work that deals with adaptation of CNN models to multi-label RS image retrieval problems. This is achieved based on a two-steps strategy. In the first step, a Convolutional Neural Network (CNN) pre-trained for image classification with the ImageNet dataset is used off-the-shelf as a feature extractor. In particular, three popular architectures are explored: 1) VGG16; 2) Inception V3; and 3) ResNet50. VGG16 is a CNN characterized by 16 convolutional layers of stacked 3x3 filters, with intermediate max pooling layers and 3 fully connected layers at the end. Inception V3 is an improved version of the former GoogleNet, which contains more layers but less parameters, by removing fully connected layers and using a global average pooling from the last convolutional layer. ResNet50 is even deeper thanks to the introduction of residual layers, that allow data to flow by skipping the convolutional blocks. In the second step of our research, we modify these three off-the-shelf models by fine-tuning their parameters with a subset of RS images and their multi-label information. Experiments carried out on an archive of aerial images show that fine-tuning CNN architectures with annotated images with multi-labels significantly improve the retrieval accuracy with respect to the standard CBIR methods. We find that fine-tuning using with a multi-class approach achieves better results than considering each label as an independent class. 
+
+## Publication
+
+This source code was used in the development of the [master thesis](https://github.com/imatge-upc/retrieval-2016-remote/raw/master/MicheleCompri-MSc-thesis.pdf) of Michele Compri.
 
 ## Slides
 
